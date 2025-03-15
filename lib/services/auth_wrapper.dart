@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tkc/features/Login/presentation/cubit/login_cubit.dart';
 import 'package:tkc/features/Login/presentation/view/login.dart';
-import 'package:tkc/main.dart';
+import 'package:tkc/features/Main/Presentation/view/main_screen.dart';
 
 class AuthWrapper extends StatelessWidget {
   const AuthWrapper({super.key});

@@ -38,7 +38,7 @@ class DioClient {
   void _initializeInterceptors() {
     _dio.interceptors.add(InterceptorsWrapper(onRequest:
         (RequestOptions options, RequestInterceptorHandler handler) async {
-      final token = _authBox.get('accessToken');
+      // final token = _authBox.get('accessToken');
       // if (token != null) {
       //   options.headers['Authorization'] = 'Bearer $token';
       // }

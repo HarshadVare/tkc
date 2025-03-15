@@ -4,8 +4,8 @@ import 'package:go_router/go_router.dart';
 import 'package:tkc/config/app_router_constatnt.dart';
 import 'package:tkc/features/Login/presentation/cubit/login_cubit.dart';
 import 'package:tkc/features/Login/presentation/view/login.dart';
+import 'package:tkc/features/Main/Presentation/view/main_screen.dart';
 import 'package:tkc/features/Splash/splash_screen.dart';
-import 'package:tkc/main.dart'; // Service to check auth state
 
 class AppRouter {
   static GoRouter router = GoRouter(
