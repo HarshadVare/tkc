@@ -2,11 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:tkc/config/app_router.dart';
-import 'package:tkc/config/app_router_constatnt.dart';
-import 'package:tkc/features/AddItem/presentation/view/add_item.dart';
-import 'package:tkc/features/Home/presentation/view/home.dart';
 import 'package:tkc/features/Login/presentation/cubit/login_cubit.dart';
-import 'package:tkc/features/profile.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
